@@ -1,28 +1,11 @@
 import './App.css';
 import ReactDOM from 'react-dom';
-import ReactPDF from '@react-pdf/renderer';
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
-import { PDFViewer } from '@react-pdf/renderer';
+//import ReactPDF from '@react-pdf/renderer';
+//import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+//import { PDFViewer } from '@react-pdf/renderer';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// Create styles
-const styles = StyleSheet.create({
-  page: {
-    flexDirection: 'row',
-    backgroundColor: '#E4E4E4'
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1
-  }
-});
-
-// Create Document Component
-const MyDocument = () => (
-  <Document file="talk.pdf"></Document>
-);
 
 function App() {
   return (
